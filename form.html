@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a class="up-button" href="#">
+        <img src="./img/icons/arrowUp.svg" alt="">
+    </a>
+    <header>
+        <nav class="menu">
+            <img src="img/icons/logo.svg" alt="Logo">
+            <div class="menu__links">
+                <a href="./index.html">о проекте</a>
+                <a href="">контакты</a>
+                <a href="./form.html" class="button_blue">Добавить объявление</a>
+            </div>
+        </nav>
+        <section class="banner">
+            <h1>Создание объявления<h1>
+        </section>
+    </header>
+    <main class="form-container">
+        <article class="container">
+            <div class="form__top">
+                <img src="./img/icons/dollarbox.svg" alt="">
+                <p>Заполните все поля формы на размещение своего объявления на сайте.
+
+                    <br>Размещение объявления платное.
+                    Стоимость за одно объявление составляет <b>990 руб.</b>
+                    <br>
+                    Объявление будет опубликовано на сайте после оплаты и проверки модератором.
+                </p>
+            </div>
+            <form action="">
+                <div class="form-inner">
+
+
+                    <label for="">Выберите город</label>
+                    <select name="" id="">
+                        <option value="">Москва</option>
+                        <option value="">Другой</option>
+                    </select>
+                    <label for="">Ваше имя</label>
+                    <input type="text">
+                    <label for="">Номер мобильного телефона</label>
+                    <input type="text" placeholder="+7 (999) 999 99 99">
+                    <label for="">Номер городского телефона</label>
+                    <input type="text" placeholder="+7 (999) 999 99 99">
+                    <label for="">Ваш email</label>
+                    <input type="text" placeholder="example@gmail.com">
+                    <label for="">Адрес стоянки эвакуатора</label>
+                    <input type="text">
+                </div>
+                <fieldset>
+                    <legend>ИНФОРМАЦИЯ</legend>
+                    <div class="form-inner">
+                    <label for="">Заголовок объявления</label>
+                    <input type="text" placeholder="Не более 50 символов">
+                    <label for="">Описание объявления</label>
+                    <textarea name="" id="" placeholder="Не более 50 символов"></textarea>
+                </div>
+                </fieldset>
+                <fieldset>
+                    <legend>ЦЕНЫ</legend>
+                    <div class="form-inner">
+
+                    <div class="prices__car-option">
+                        <label for="">Легковые автомобили</label>
+                        <div class="prices__car-price">
+                            <div>
+                                <input type="text">
+                                <label for="">рублей</label>
+                            </div>
+                            <div class="no-service">
+                                <input type="checkbox">
+                                <label for="">Услугу не оказываю</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prices__car-option">
+                        <label for="">Мототехника</label>
+                        <div  class="prices__car-price">
+                            <div>
+                                <input type="text">
+                                <label for="">рублей</label>
+                            </div>
+                            <div class="no-service">
+                                <input type="checkbox">
+                                <label for="">Услугу не оказываю</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prices__car-option">
+                        <label for="">Внедорожник</label>
+                        <div  class="prices__car-price">
+                            <div>
+                                <input type="text">
+                                <label for="">рублей</label>
+                            </div>
+                            <div class="no-service">
+                                <input type="checkbox">
+                                <label for="">Услугу не оказываю</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prices__car-option">
+                        <label for="">Микроавтобус</label>
+                        <div  class="prices__car-price">
+                            <div>
+                                <input type="text">
+                                <label for="">рублей</label>
+                            </div>
+                            <div class="no-service">
+                                <input type="checkbox">
+                                <label for="">Услугу не оказываю</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prices__car-option">
+                        <label for="">Загородный тариф</label>
+                        <div  class="prices__car-price">
+                            <div>
+                                <input type="text">
+                                <label for="">рублей</label>
+                            </div>
+                            <div class="no-service">
+                                <input type="checkbox">
+                                <label for="">Услугу не оказываю</label>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                </fieldset>
+                <fieldset>
+                    <legend>ФОТО</legend>
+                    <div class="form-inner">
+                   
+                    <label for="">Прикрепите фотографию к объявлению</label>
+                    <button class="card__button_outline download-button">Загрузить</button>
+                    <p class="agree">
+                        <input type="checkbox" name="" id="">
+                        <label for="">Я соглашаюсь с правилами использования сервиса, а также с передачей и обработкой моих данных в evarus.ru. Я подтверждаю своё совершеннолетие и ответственность за размещение.</label>
+                    </p>
+                    <a class="button_blue continue-button">Продолжить</a>
+     
+                    </div>
+                </fieldset>
+            </form>
+        </article>
+
+    </main>
+    <footer>
+        <div class="container footer-container">
+            <img src="./img/icons/logo.svg" alt="">
+            <a href="">Вызвать эвакуатор</a>
+            <a href="">Добавить эвакуатор на сайт</a>
+            <a href="">Помощь</a>
+            <a href="">Правила оплаты</a>
+            <a href="">Защита персональных данных</a>
+        </div>
+    </footer>
+</body>
+
+</html>
